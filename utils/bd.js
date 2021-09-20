@@ -4,8 +4,8 @@ const knex = require ('knex')({
         host: 'localhost',
         user: 'root',
         password: '',
-        database: 'mi base',
+        database: 'pwi2021tm',
         pool: {min:1, max:10}
         }
    });
-module.exports=knex
+module.exports= knex;
