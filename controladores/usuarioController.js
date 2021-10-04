@@ -3,8 +3,8 @@ const bcryptjs= require('bcryptjs');
 const {validationResult} = require('express-validator');
 // para manejar la sesiones, vamos a usar jsonwebtoken
 const jwt = require('jsonwebtoken')
-
-
+ 
+ 
 
 
 

@@ -187,7 +187,7 @@ router.get('/:id', (req, res)=> {
         }
     }
 })
-
+ 
 router.get('/', (req, res) => {
     let cant = parseInt(req.query.cant)
     let desde = parseInt(req.query.desde)

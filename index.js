@@ -21,7 +21,7 @@ const usuarios = require('./router/usuarios');
 
 //lector de json
 app.use(express.json({extend: true}))
-
+ 
 
 
 //declaro las rutas que vamos a usar-
@@ -29,6 +29,7 @@ app.use('/api', home);
 app.use('/api/servicios', servicios);
 app.use('/api/posteos', posteos);
 app.use('/api/usuarios', usuarios);
+app.use('/api/auth', require('./router/auth') )
 
 app.listen(port, ()=>{
     console.log (`server andando en port ${port}`)
