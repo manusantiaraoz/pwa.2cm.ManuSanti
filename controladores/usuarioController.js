@@ -7,6 +7,7 @@ const jwt = require('jsonwebtoken')
 
 
 
+
 exports.crearUsuario= async (req, res) =>{
     const error = validationResult(req);
     if (!error.isEmpty()){
